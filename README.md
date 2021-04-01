@@ -59,7 +59,7 @@ If the game have multi dexes, it may be located in smali_classes2... please chec
 
 Open the main acitivity's smali file, search for OnCreate method and paste this code inside (change the package name if you had changed it)
 ```
-invoke-static {p0}, Lcom/example/androidloginjava/LoginForm;->Start(Landroid/content/Context;)V
+invoke-static {p0}, Lyt/mahmoudgaming/Login/LoginForm;->Start(Landroid/content/Context;)V
 ```
 
 ![](https://i.imgur.com/yjsAaHD.png)
